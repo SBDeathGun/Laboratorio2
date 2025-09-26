@@ -41,6 +41,9 @@ int main(int argc,char *argv[]){
                 lenghtpari++;
             }else{
                 pariArray = realloc(pariArray,2*sizepari*sizeof(int));
+                if (pariArray==NULL){
+                    termina("realloc fallita",1);
+                }
                 pariArray[lenghtpari]=number;
                 lenghtpari++;
             }
@@ -52,6 +55,9 @@ int main(int argc,char *argv[]){
                 lenghtdispari++;
             }else{
                 dispariArray = realloc(dispariArray,2*sizedispari*sizeof(int));
+                if (dispariArray==NULL){
+                    termina("realloc fallita",1);
+                }
                 dispariArray[lenghtdispari]=number;
                 lenghtdispari++;
             }
@@ -64,6 +70,8 @@ int main(int argc,char *argv[]){
     fclose(dispari);
     printf("pari: %d\n",sommapari);
     printf("dispari: %d",sommadispari);
+    free(dispariArray);
+    free(pariArray);
     return 0;
 }
 
