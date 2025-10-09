@@ -27,12 +27,13 @@ void stampaCharReverse(char *str){
 }
 
 char* strReverse(char *str){
-    char *newstr = malloc(sizeof(char)*strlen(str));
+    char *newstr = malloc(sizeof(char)*strlen(str)+1);
     int j=0;
     for(int i=strlen(str)-1;i>=0;i--){
         newstr[i]=str[j];
         j++;
     }
+    newstr[j]='\0';
     return newstr;
 }
 
@@ -40,7 +41,9 @@ int main(int argc,char *argv[]){
     for(int i = 1; i<argc;i++){
         printf("stringa stampata char a char: ");
         stampaCharReverse(argv[i]);
-        printf("\n stringa Reversata e poi stampata: %s \n",strReverse(argv[i]));
+        char *revstr = strReverse(argv[i]);
+        printf("\n stringa Reversata e poi stampata: %s \n",revstr);
+        free (revstr);
     }
     return 0;
 }
