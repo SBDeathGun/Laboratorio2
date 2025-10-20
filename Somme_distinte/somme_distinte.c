@@ -37,13 +37,15 @@ int *doubleresizeIntArray(int *arr,int size){
     if(tmp==NULL) termina("errrore resize array",2);
     return tmp;
 }
-void pushint(int val,int *arr,int *size,int *length){
+
+
+void pushint(int val,int **arr,int *size,int *length){
     if(*length<*size){
-        arr[*length]=val;
+        (*arr)[*length]=val;
     }else{
-        arr=doubleresizeIntArray(arr,*size);
+        *arr=doubleresizeIntArray(*arr,*size);
         *size=(*size)*2;
-        arr[*length]=val;    
+        (*arr)[*length]=val;    
     }
     *length+=1;
 }
@@ -85,7 +87,7 @@ int main(int argc,char *argv[]){
         
     }
     int sizeris,lengthris=0;
-    int *ris=somme_distinte(arrayA,lengthA,&sizeris,&lengthris);
+    int *ris=somme_distinte(&arrayA,lengthA,&sizeris,&lengthris);
     int somma=0;
     for(int i=0;i<lengthris;i++){
         fprintf(stderr,"%d\n",ris[i]);
