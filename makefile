@@ -3,5 +3,5 @@
 # definizione del compilatore e dei flag di compilazione
 # che vengono usati dalle regole implicite
 CC=gcc
-CFLAGS=-std=c11 -Wall -O2 -g -S
+CFLAGS=-std=c11 -Wall -O2 -g
 
