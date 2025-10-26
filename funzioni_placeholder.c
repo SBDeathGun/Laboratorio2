@@ -6,5 +6,12 @@
 #include <string.h>   // funzioni di confronto/copia/etc di stringhe
 
 
-char *z ="efiohufeogkusn"; //modo sbagliato per fare le stringhe perche da una stringa immutabile
-char *str = strdup("fhjyfvjfvjgvjg"); // questa fa una malloc di lenght+1 perche convenzionalmente la fine della stringa c'e il byte \0
+void push (xxx val,xxx **arr,int *length, int *size){
+    if((*length) == (*size)) {
+        (*arr) = realloc(*arr,(*size)*2*sizeof(xxx));
+        *size=*size*2;
+    }
+    (*arr)[*length]= val;
+    *length = (*length)+1;
+}
+
