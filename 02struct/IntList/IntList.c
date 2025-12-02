@@ -29,9 +29,9 @@ Successivamente il main deve invocare confronta_lunghezza e stampare la lista pi
 Il programma deve poi deallocare tutta la memoria utilizzata e terminare.*/
 
 
-typedef struct tmp {
+typedef struct head {
   int valore;
-  struct tmp* next;
+  struct head* next;
 } intero;
 
 intero *creanodo(int n){
@@ -56,37 +56,30 @@ void inseriscinodo(intero** head,intero* n){
     *head=n;    
 }
 void stampaLista(intero *head){
-    intero *tmp=head;
-    while(tmp != NULL){
-        printf("%d\n",tmp->valore);
-        tmp=tmp->next;
+    while(head != NULL){
+        printf("%d\n",head->valore);
+        head=head->next;
     }
 }
 
 int sommaLista(intero* head){
-    intero *tmp = head;
     int somma=0;
-    while(tmp!=NULL){
-        somma+=tmp->valore;
-        tmp = tmp->next;
+    while(head!=NULL){
+        somma+=head->valore;
+        head = head->next;
     }
     return somma;
 }
 
 int confronta_lunghezze(intero* primo,intero* secondo){
-    if(primo == NULL && secondo == NULL){
+    while(primo!=NULL && secondo!=NULL){
+        primo=primo->next;
+        secondo=secondo->next;
+    }
+    if(primo==NULL && secondo==NULL){
         return 0;
     }
-    intero *primotmp=primo->next;
-    intero *secondotmp= secondo->next; 
-    while(primotmp!=NULL && secondotmp!=NULL){
-        primotmp=primotmp->next;
-        secondotmp=secondotmp->next;
-    }
-    if(primotmp==NULL && secondotmp==NULL){
-        return 0;
-    }
-    else if(primotmp==NULL){
+    else if(primo==NULL){
         return 1;
     }
     return -1;
