@@ -16,7 +16,7 @@ typedef struct {
 } coppia;
 
 coppia *create_coppia(int primo, int secondo){
-    coppia * res = malloc(sizeof(coppia *));
+    coppia * res = malloc(sizeof(coppia));
     res->primo=primo;
     res->secondo=secondo;
     return res;
@@ -81,7 +81,7 @@ void mergeSortStringhe(char *a[], int n){
     mergeStringhe(a,n1,&a[n1],n2);
 }
 void mergeCoppie (coppia *a[],int na, coppia *b[], int nb){
-    coppia **arrtmp = malloc(sizeof(char *)*(na+nb)); //istanzio un array temporaneo dove storare tutti i valori ordinati
+    coppia **arrtmp = malloc(sizeof(coppia *)*(na+nb)); //istanzio un array temporaneo dove storare tutti i valori ordinati
     int r=0 , l=0; //indici per capire a che punto soo arrivato dei due array
     int lengthtmp = 0; 
     while (r!=na && l!=nb){  //finche non ho finito una delle due meta continuo a fare i confronti per capire quale devo mettere
