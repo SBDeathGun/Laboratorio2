@@ -42,11 +42,11 @@ public class Attori{
             e.printStackTrace();
         }
 
-        
         try {
             BufferedWriter attrici = new BufferedWriter(new FileWriter("attrici.txt"));
             for(String prof :professioni.keySet()){
                 BufferedWriter writer = new BufferedWriter(new FileWriter(prof +".txt"));
+                professioni.get(prof).sort((arg1, arg2) -> {return arg1.compareTo(arg2);});
                 for(String person :professioni.get(prof)){
                     writer.write(person+"\n");
                     if(prof.equalsIgnoreCase("Actress")){

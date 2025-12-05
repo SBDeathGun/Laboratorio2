@@ -1,7 +1,7 @@
-Elvis Presley
-David Bowie
-Jennifer Lopez
-Madonna
-John Denver
-Frank Sinatra
 Cher
+David Bowie
+Elvis Presley
+Frank Sinatra
+Jennifer Lopez
+John Denver
+Madonna

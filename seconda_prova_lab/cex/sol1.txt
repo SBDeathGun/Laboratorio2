@@ -1,0 +1,10 @@
+<MANCA         > <>
+<MANCA         > <fine>
+<MANCA         > <lineasenzasecondaparola>
+<RICORDA       > <QUI RICORDA CHE LE MAIUSCOLE PRECEDONO LE MINUSCOLE>
+<linea         > <altra linea>
+<linea         > <prima linea>
+<linea         > <seconda linea>
+<molto         > <linea molto moooooooooooooooooooooooooooooooooooooolto lunga>
+<prossima      > <la prossima linea è vuota>
+<ripetuta      > <linea ripetuta più volte>

@@ -1,0 +1,200 @@
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
+aaa 
+a bc
+aa bcbc
+aaa bcbcbc
+a bcbcbcbc
+aa 
+aaa bc
+a bcbc
+aa bcbcbc
+aaa bcbcbcbc
+a 
+aa bc
+aaa bcbc
+a bcbcbc
+aa bcbcbcbc
