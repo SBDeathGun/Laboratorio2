@@ -1,0 +1,9 @@
+uno
+uno due
+uno due tre
+uno due tre quattro
+uno due tre quattro cinque
+due tre quattro cinque
+tre quattro cinque
+quattro cinque
+cinque

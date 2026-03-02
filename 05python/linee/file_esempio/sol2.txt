@@ -1,0 +1,9 @@
+<MANCA         > <cinque>
+<MANCA         > <uno>
+<cinque        > <quattro cinque>
+<due           > <uno due>
+<due           > <uno due tre>
+<due           > <uno due tre quattro>
+<due           > <uno due tre quattro cinque>
+<quattro       > <tre quattro cinque>
+<tre           > <due tre quattro cinque>

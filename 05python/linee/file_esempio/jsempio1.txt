@@ -1,0 +1,13 @@
+prima linea
+seconda linea
+altra linea
+PRIMA linea
+ALTRA linea
+terza linea
+terza Linea
+zzz
+linea ripetuta
+linea ripetuta
+stop
+fine
+fine veramente

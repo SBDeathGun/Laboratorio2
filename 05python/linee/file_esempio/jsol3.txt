@@ -1,0 +1,15 @@
+a 
+aa 
+a bc
+aaa 
+aa bc
+a bcbc
+aaa bc
+aa bcbc
+a bcbcbc
+aaa bcbc
+aa bcbcbc
+a bcbcbcbc
+aaa bcbcbc
+aa bcbcbcbc
+aaa bcbcbcbc
