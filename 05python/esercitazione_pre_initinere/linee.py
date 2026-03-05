@@ -80,8 +80,10 @@ class MioFile:
 
 
 def creaLista(dir:str,num:int,pattern:str,giavisti:None,res:list[MioFile]=[]):
+    
     if giavisti==None:
         giavisti=set()
+    
     files = os.listdir(os.path.abspath(dir))
     for file in files:
         nomecompleto = os.path.join(dir,file)
