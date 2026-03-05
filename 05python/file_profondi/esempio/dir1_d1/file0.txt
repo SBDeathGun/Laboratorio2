@@ -1,0 +1,10 @@
+Riga 0 del file file0.txt
+Riga 1 del file file0.txt
+Riga 2 del file file0.txt
+Riga 3 del file file0.txt
+Riga 4 del file file0.txt
+Riga 5 del file file0.txt
+Riga 6 del file file0.txt
+Riga 7 del file file0.txt
+Riga 8 del file file0.txt
+Riga 9 del file file0.txt

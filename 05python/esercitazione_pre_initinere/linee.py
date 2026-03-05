@@ -64,12 +64,6 @@ class MioFile:
             return  i , acc
 
 
-
-    
-    
-    
-    
-    
     def __str__(self):
         return f"{self.path} , {self.nlinee} \n {self.linee} \n"
     
